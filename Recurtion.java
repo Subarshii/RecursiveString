@@ -3,23 +3,19 @@ package Chapter12Advands.recursive;
 public class Recurtion {
 
 
-    static String cycleLeft(String x) {
-
-        x = ((x.substring(1) + x.substring(0, 1)));
-        return x;
+    static String cycleLeft(String s) {
+        for (int i = 0; i < s.length(); i++) {
+            s = ((s.substring(1) + s.substring(0, 1)));
+            System.out.println(s);
+        }
+        return s;
 
 
     }
 
     public static void main(String[] args) {
         String s = "HelloWorld";
-        for (int i = 0; i < s.length(); i++) {
-
-            s = cycleLeft(s);
-
-            System.out.println(s);
-        }
-
+        s = cycleLeft(s);
 
     }
 
