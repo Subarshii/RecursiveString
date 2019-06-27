@@ -15,7 +15,7 @@ public class Recurtion {
 
     public static void main(String[] args) {
         String s = "HelloWorld";
-        s = cycleLeft(s);
+        cycleLeft(s);
 
     }
 
