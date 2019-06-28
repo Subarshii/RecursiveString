@@ -1,6 +1,6 @@
 package Chapter12Advands.recursive;
 
-public class Reverset {
+public class ReverseString {
 
 
     static String reverse(String s) {

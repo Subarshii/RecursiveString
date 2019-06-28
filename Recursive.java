@@ -1,6 +1,6 @@
 package Chapter12Advands.recursive;
 
-public class Recutsive {
+public class Recursive {
 
 
     static String cycleleft(String s, String t) {

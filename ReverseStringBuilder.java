@@ -1,6 +1,6 @@
 package Chapter12Advands.recursive;
 
-public class Reverse {
+public class ReverseStringBuilder {
     public static void main(String[] args) {
         StringBuilder x = new StringBuilder("HelloWorld");
 

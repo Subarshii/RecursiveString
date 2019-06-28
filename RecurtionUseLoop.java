@@ -1,6 +1,6 @@
 package Chapter12Advands.recursive;
 
-public class Recurtion {
+public class RecurtionUseLoop {
 
 
     static String cycleLeft(String s) {
