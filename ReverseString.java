@@ -3,25 +3,19 @@ package Chapter12Advands.recursive;
 public class ReverseString {
 
 
-    static String reverse(String s) {
-        String ss = "";
-        char[] ch = s.toCharArray();
-        for (int i = ch.length - 1; i >= 0; i--) {
-            System.out.print(ch[i]);
-            ss = ss + ch[i];
+    public static String reverseString(String s) {
+
+        if (s.length() == 0) {
+            return s;
         }
-        return ss;
+
+
+        return reverseString(s.substring(1)) + s.charAt(0);
 
     }
-
 
     public static void main(String[] args) {
-        String s = "HelloWorld";
-        reverse(s);
-
-
+        String result = reverseString("HelloWorld");
+        System.out.println(result);
     }
-
-
 }
-

@@ -10,6 +10,7 @@ public class Recursive {
 
         if (s.equals(t)) {
             return s;
+
         }
         return cycleleft(s, t);
 
@@ -17,7 +18,6 @@ public class Recursive {
     }
 
     public static void main(String[] args) {
-         cycleleft("HelloWorld", "HelloWorld");
-
+        String s = cycleleft("Hello World", "Hello World");
     }
 }
